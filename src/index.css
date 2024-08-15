@@ -37,6 +37,28 @@ body{
     box-sizing: border-box;
     font-family: var(--medium);
     font-size: 1rem;
+    background-color: var(--bgColor) !important;
 }
+/* <<<< container >>>> */
+.container{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+/* <<<< Grid app >>>> */
+.flex{
+    display: flex;
+    align-items: center;
+}
+.wrapper_right{
+    flex-basis: 15%;
+    margin-left: 1rem;
+}
+.wrapper_left{
+    flex-basis: 85%;
+}
+/* <<<<  >>>> */
 /* <<<<  >>>> */
 /* <<<<  >>>> */

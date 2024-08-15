@@ -1,9 +1,12 @@
-import React from 'react'
 
 function App() {
   return (
-   
-   <div>app</div>
+    <div className="container">
+         <div className="flex">
+        <div className="wrapper_right">this is right</div>
+        <div className="wrapper_left">this is left</div>
+    </div>
+    </div>
   )
 }
 
