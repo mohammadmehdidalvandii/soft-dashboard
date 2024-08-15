@@ -1,0 +1,19 @@
+.login{
+    display: flex;
+    align-items: center;
+    color: var(--text-100);
+    text-decoration: none;
+    transition: all 0.4s linear;
+}
+.login:hover{
+    color: var(--text-200);
+}
+.login_icon{
+    font-size: 1.5rem;
+    margin-left: 0.2rem;
+}
+.login_text{
+    display: block;
+    font-family: var(--bold);
+    margin-bottom: 0.70rem;
+}
