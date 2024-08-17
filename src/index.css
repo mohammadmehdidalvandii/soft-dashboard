@@ -3,15 +3,15 @@
 /* <<<< Import Font >>>> */
 @font-face {
     font-family: iranBlack;
-    src: url(/public/font/IRANSansX-Black.woff);
+    src: url(/font/IRANSansX-Black.woff);
 }
 @font-face {
     font-family: iranBold;
-    src: url(/public/font/IRANSansX-Bold.woff);
+    src: url(/font/IRANSansX-Bold.woff);
 }
 @font-face {
     font-family: iranMedium;
-    src: url(/public/font/IRANSansX-Medium.woff);
+    src: url(/font/IRANSansX-Medium.woff);
 }
 
 /* <<<< :root variable  >>>> */
@@ -27,6 +27,7 @@
     --text-100: #344767;
     --text-200: #67748E;
     --text-300: #78839A;
+    --text-400: #E9ECEF;
     --red: #F05353;
     --green: #82D616;
 }
@@ -38,6 +39,7 @@ body{
     font-family: var(--medium);
     font-size: 1rem;
     background-color: var(--bgColor) !important;
+    overflow-x: hidden;
 }
 /* <<<< container >>>> */
 .container{
@@ -54,11 +56,11 @@ body{
 }
 .wrapper_right{
     flex-basis: 15%;
-    margin-left: 1rem;
 }
 .wrapper_left{
     flex-basis: 85%;
+    margin-right: 1.5rem;
 }
-/* <<<<  >>>> */
+/* <<<< custom styles >>>> */
 /* <<<<  >>>> */
 /* <<<<  >>>> */
