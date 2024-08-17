@@ -55,10 +55,13 @@ body{
     align-items: center;
 }
 .wrapper_right{
+    display: block;
     flex-basis: 15%;
 }
 .wrapper_left{
-    flex-basis: 85%;
+    display: block;
+    height: 100dvh;
+    flex-basis: 85% ;
     margin-right: 1.5rem;
 }
 /* <<<< custom styles >>>> */
