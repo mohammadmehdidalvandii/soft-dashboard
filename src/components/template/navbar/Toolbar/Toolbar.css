@@ -1,0 +1,23 @@
+.toolbar{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.toolbar_icon_text{
+    display: flex;
+    align-items: center;
+    color: var(--text-300);
+}
+.toolbar_text{
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+}
+.toolbar_icon{
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+.toolbar_title{
+    font-size: 1.3rem;
+    
+}
